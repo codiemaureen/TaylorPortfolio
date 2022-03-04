@@ -9,3 +9,7 @@ exports.projects = (req, res) => {
 exports.about = (req, res) => {
     res.render('about', {title: 'About Me'})
 };
+
+exports.contact = (req, res) => {
+    res.render('contact', {title: 'Contact Me'})
+};
