@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  list-style: none;
+}
