@@ -9,12 +9,16 @@ html(lang="en")
         .nav_bar 
 
             li.nav_item: a(href="/")
+                != h.icon('home')
                 span Home 
             li.nav_item: a(href="/registry")
+                != h.icon('folder')
                 span Projects 
             li.nav_item: a(href="/about-me")
+                != h.icon('pen')
                 span About Me 
             li.nav_item: a(href="/contact") 
+                != h.icon('contact')
                 span Contact Me 
         
         .content 

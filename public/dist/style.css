@@ -7,4 +7,31 @@ body {
   justify-content: space-evenly;
   border: 2px solid black;
   list-style: none;
+  background-color: #0e1b0e;
+}
+
+.nav_item {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 15px;
+  padding: 15px;
+  border: 2px solid grey;
+  justify-content: right;
+  max-width: 100px;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+svg:hover {
+  color: white;
+  transform: scale(1.2);
+}
+svg:not(:root) {
+  overflow: hidden;
+  fill: white;
 }
