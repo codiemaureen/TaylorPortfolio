@@ -5,3 +5,7 @@ exports.homepage = (req, res) => {
 exports.projects = (req, res) => {
     res.render('projects', {title: 'Projects'})
 };
+
+exports.about = (req, res) => {
+    res.render('about', {title: 'About Me'})
+};

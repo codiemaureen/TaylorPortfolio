@@ -80,3 +80,22 @@ h2 {
   text-shadow: 2px 2px lightgray;
   font-size: 3rem;
 }
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+img {
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 30vw;
+  border: 10px solid black;
+  box-shadow: 2px 2px lightgray;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
