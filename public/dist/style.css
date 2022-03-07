@@ -69,10 +69,11 @@ a:active {
   background-color: white;
   border: 10px solid #241e19; }
 
-h2 {
+.header {
   display: flex;
   justify-content: center;
-  text-shadow: 2px 2px lightgray; }
+  text-shadow: 2px 2px lightgray;
+  font-size: 2rem; }
 
 p {
   display: flex;
