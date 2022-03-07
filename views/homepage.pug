@@ -1,5 +1,8 @@
 extends layout 
 
+include mixins/_projects
+
 block content 
     h2 Welcome to my Portfolio
-    .container
+    .div
+        +project()
