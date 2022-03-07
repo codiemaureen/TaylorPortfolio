@@ -8,7 +8,7 @@ require('dotenv').config({ path: '.env' });
 
 
 //import all of our models
-
+require('./models/Projects');
 
 
 const app = require('./app');
