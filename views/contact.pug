@@ -1,6 +1,8 @@
 extends layout 
 
+include mixins/_contactForm
+
 block content
     .header
         h2 Let's Work Together!
-    p Contact Me
+    +contact()

@@ -1,0 +1,43 @@
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid grey;
+  &.input {
+    &--error {
+      border-color: red;
+    }
+  }
+}
+
+label {
+  padding: 10px 0;
+  display: block;
+}
+
+.form {
+  background: white;
+  padding: 2rem;
+  margin: 25px;
+  border: 2px solid black;
+  box-shadow: 2px 2px grey;
+  & + .form {
+    margin-top: 4rem;
+  }
+  // I know this isn't bem but meh
+  h2 {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid grey;
+  }
+  label {
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+  }
+}

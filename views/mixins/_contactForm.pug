@@ -1,0 +1,8 @@
+mixin contact()
+    form.form(action="/contact" method="GET")
+        h2 Contact Me
+        label(for="email") Email
+        input(type="email" name="email")
+        label(for="input") Your Message Here
+        textarea(name="input", cols="30", rows="10") 
+        input.button(type="submit" value="Email Me →")        
